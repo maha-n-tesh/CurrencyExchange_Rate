@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #484D6D;
+    color: #EFE9F4;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #08B2E3;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 45vh;
+    width: 40vh;
+}
+form {
+    margin: 1rem 0 1rem 0;
+}
+form select,input,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+form input {
+    height: 3.5vh;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    height: 2rem;
+}
+
+.select-container{
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    background-color: #57A773;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+.select-container select {
+    margin-left: 5px;
+    width: 70%;
+    height: 1.2rem;
+    padding-left: 2px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+form button {
+    height: 2rem;
+    background-color: #EE6352;
+    color: #EFE9F4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.icon{
+    color: #484D6D;
+    margin: 1.3rem 0.5rem 0 0.5rem;
+}
